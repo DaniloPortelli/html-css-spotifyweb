@@ -32,6 +32,27 @@ img{
     background-color: #000000;
     position: absolute;
     left: 0;
+    color: white;
+}
+
+.contenitore-barra-laterale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav ul{
+    padding: 5px;
+    font-size: larger;
+    line-height: 30px;
+    text-align: center;
+}
+
+.user ul{
+    padding: 5px;
+    font-size: larger;
+    line-height: 30px;
+    text-align: center;
 }
 
 .barra-superiore{
@@ -73,12 +94,17 @@ img{
     padding: 10px;
 }
 
-.recenti{
-    background-color: #141922;
-    color: white;
+.subtitle{
+    color: #797B7F;
 }
 
-.contenitore-brani-recenti{
+.sections{
+    background-color: #141922;
+    color: white;
+    padding: 10px;
+}
+
+.contenitore-brani{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -98,5 +124,8 @@ img{
     text-align: center;
     color: #76787D;
     padding-block: 5px;
+}
 
+.circle{
+    border-radius: 50%;
 }
