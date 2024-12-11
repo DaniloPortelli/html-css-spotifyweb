@@ -11,7 +11,6 @@ img{
 .macro-container{
     width: 100vw;
     height: 100vh;
-    border: solid red 3px;
     position: relative;
 }
 
@@ -36,6 +35,7 @@ img{
 }
 
 .contenitore-barra-laterale{
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,12 +55,26 @@ img{
     text-align: center;
 }
 
+/* Barra superiore */
+
 .barra-superiore{
     width: 90vw;
     background-color: #080B12;
     height: 15vh;
     position: absolute;
     left: 10vw; 
+    display: flex;
+}
+
+.upgrade-button{
+    color: #F5F5F6;
+    border: #F5F5F6 solid 2px;
+    font-size: xx-small;
+    padding: 15px;
+    border-radius: 30px;
+    align-self: center;
+    align-self: center;
+    align-content: start;
 }
 
 
@@ -71,7 +85,6 @@ img{
     position: absolute;
     top: 15vh;
     left: 10vw;
-    border: solid blue 3px;
     overflow: scroll;
 }
 
@@ -85,13 +98,13 @@ img{
     justify-content: center;
     background-color: #141922;
     font-size: x-small;
-    
+    font-weight: 750;    
 }
 
 /* Brani recenti */
 
 .categories-title{
-    padding: 10px;
+    padding: 5px;
 }
 
 .subtitle{
