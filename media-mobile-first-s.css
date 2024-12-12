@@ -1,10 +1,49 @@
-@media screen and (min-width: 480px) {
-
-    .container{
-        background-color: yellow;
-        flex-basis: 20%;
-        border: solid yellow(13, 13, 14) 3px;
-        overflow: scroll;
-    }
+@media screen and (min-width: 479px) {
     
+    .barra-laterale{
+        flex-basis: 35%;
+        padding-left: 5px;
+    }
+
+        .spotify{
+            display: inline-block;
+        }
+
+        .nav ul li span{
+            display: inline-block;
+        }
+        
+        .playlist{
+            display: inline-block;
+            color: #6E6E6E;
+        }
+
+        .playlist ul li{
+            font-size: small;
+        }
+
+        .playlist ul li:first-child{
+            text-transform: uppercase;
+            color: white;
+            font-weight: bolder;
+        }
+        
+    
+        .nav ul{
+            font-size: large;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        .nav ul span{
+            font-size: small;
+        }
+
+        .hr{
+            display: block;
+            border-color: #6E6E6E;
+            width: 80%;
+            margin: 0 auto;
+        }
+
 }

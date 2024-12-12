@@ -10,14 +10,12 @@ img{
 
 .macro-container{
     height: 90vh;
-    border: solid red 3px;
     display: flex;
 }
 
 /* Barre absolute */
 
 .player{
-    border: solid yellow 3px;
     background-color: #282828;
     height: 10vh;
     bottom: 0;
@@ -27,7 +25,6 @@ img{
 .barra-laterale{
     flex-basis: 10%;
     height: 90vh;
-    border: green solid 3px;
     background-color: #000000;
     color: white;
 }
@@ -43,9 +40,19 @@ img{
     text-align: center;
 }
 
-.logo{
-    width: 80%;
-    padding-block: 10px;
+.contenitore-logo{
+    text-align: left;
+    padding: 10px 5px;
+}
+
+.fa-spotify{
+    font-size: 30px;
+}
+
+
+
+.spotify{
+    display: none;
 }
 
 .nav ul{
@@ -55,11 +62,23 @@ img{
     text-align: center;
 }
 
+.nav ul li span{
+    display: none;
+}
+
+.playlist{
+    display: none;
+}
+
 .user ul{
     padding: 5px;
     font-size: larger;
     line-height: 30px;
     text-align: center;
+}
+
+.hr{
+    display: none;
 }
 
 /* Barra superiore */
@@ -78,9 +97,12 @@ img{
     color: #F5F5F6;
     border: #F5F5F6 solid 2px;
     font-size: xx-small;
-    padding: 5px;
     border-radius: 30px;
+    padding: 10px;
+    align-self: normal;
     text-align: center;
+
+
 }
 
 
@@ -88,7 +110,6 @@ img{
 .container{
     background-color: #141922;
     flex-basis: 90%;
-    border: solid blue 3px;
     overflow: scroll;
 }
 
