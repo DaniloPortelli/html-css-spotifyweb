@@ -90,6 +90,7 @@ img{
     top: 0;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -99,10 +100,7 @@ img{
     font-size: xx-small;
     border-radius: 30px;
     padding: 10px;
-    align-self: normal;
-    text-align: center;
-
-
+    margin-right: 5%;
 }
 
 
