@@ -1,4 +1,6 @@
-@media screen and (min-width: 479px) {
+/* Media Query Smartphone S */
+
+@media screen and (min-width: 480px) {
     
     .barra-laterale{
         flex-basis: 35%;
@@ -47,4 +49,49 @@
             margin: 0 auto;
         }
 
+}
+
+
+/* Media Query Tablet MD */
+
+
+@media screen and (min-width: 768px){
+    
+    .card{
+        padding: 10px;
+        flex-basis: calc(100% / 4 - 20px);
+    }
+    
+}
+
+
+/* Media Query Desktop L */
+
+
+@media screen and (min-width: 1024px){
+    .card{
+        padding: 10px;
+        flex-basis: calc(100% / 6 - 20px);
+    }
+
+    .barra-laterale{
+        flex-basis: 15%;
+        height: 85vh;
+        background-color: #000000;
+        color: white;
+    }
+
+    .macro-container{
+        height: 85vh;
+        display: flex;
+    }
+    
+    
+    .player{
+        background-color: #282828;
+        height: 15vh;
+        bottom: 0;
+    
+    }
+    
 }

@@ -18,9 +18,80 @@ img{
 .player{
     background-color: #282828;
     height: 10vh;
-    bottom: 0;
+    display: flex;
+    padding: 5px;
+    color: white;
+    border: solid 3px red;
+    align-items: center;
+}
+
+.player-1{
+    flex-basis: calc(100% / 3);
+    border: solid blue 1px;
+}
+
+.player-2{
+    flex-basis: calc(100% / 3);
+    border: solid blue 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-2 div ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+    align-content: 
+}
+
+.riproduzione-brano{
+    display: flex;
+    flex-direction: row;
+}
+
+.slider{
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+
+.player-3_info{
+    display: flex;
+    align-items: center;
+}
+
+.minute{
+    padding-block: 10px;
+    font-size: 0.5rem;
+    font-weight: 800;
+}
+
+
+
+.player-3{
+    flex-basis: calc(100% / 3);
+    border: solid blue 1px;
 
 }
+
+.player-1_info{
+    display: flex;
+    gap: 5px;
+}
+
+/* .img-sinister{
+    width: 30%;
+} */
+
+.info-img{
+    font-size: 0.5rem;
+}
+
+
+
 
 .barra-laterale{
     flex-basis: 10%;
@@ -107,7 +178,8 @@ img{
 /* Parte centrale */
 .container{
     background-color: #141922;
-    flex-basis: 90%;
+    border: solid 3px yellow;
+    flex-basis: 90vh;
     overflow: scroll;
 }
 
