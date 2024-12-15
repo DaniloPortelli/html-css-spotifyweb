@@ -61,7 +61,43 @@
         padding: 10px;
         flex-basis: calc(100% / 4 - 20px);
     }
+
+    .macro-container{
+        height: 92vh;
+    }
+
+    .barra-laterale{
+        flex-basis: 11%;
+        height: 92vh;
+    }
+
     
+    .player{
+    height: 8vh;
+    }
+
+
+    .player-3_info{
+        font-size: 1.2rem;
+    }
+
+    .minute{
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+    .info-img{
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-2 div ul{
+        font-size: 1.5rem;
+    }
+    
+    .img-sinister{
+    }
 }
 
 
@@ -76,22 +112,24 @@
 
     .barra-laterale{
         flex-basis: 15%;
-        height: 85vh;
+        height: 93vh;
         background-color: #000000;
         color: white;
     }
 
     .macro-container{
-        height: 85vh;
-        display: flex;
+        height: 93vh;
     }
-    
+
     
     .player{
-        background-color: #282828;
-        height: 15vh;
-        bottom: 0;
-    
+    height: 7vh;
+    }
+
+    .img-sinister img{
+        height: 70px;
+        width: 70px;
+        
     }
     
 }
